@@ -11,6 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     background-color: black;
+    overflow: hidden;
 }
 .greetings{
     font-size: 6rem;
@@ -19,6 +20,7 @@ body{
 .greetings > span{
     animation: glow 2.5s ease-in-out infinite;
 }
+
 @keyframes glow{
     0%, 100%{
         color: #fff;
